@@ -1,0 +1,30 @@
+Ejercicio 6 — Respuesta
+
+Pregunta: Explicar las ventajas de usar Flex en lugar de escribir un
+scanner manual.
+
+Respuesta:
+
+Flex es una herramienta que permite generar analizadores léxicos
+automáticamente usando expresiones regulares. Tiene varias ventajas
+frente a un scanner manual.
+
+Primero, reduce la cantidad de código necesario, ya que muchas funciones
+se generan automáticamente. Esto hace que el programa sea más corto y
+fácil de entender.
+
+Segundo, es más fácil de mantener, porque agregar nuevas reglas es
+sencillo. Solo se necesita escribir una nueva expresión regular sin
+modificar toda la lógica del programa.
+
+Tercero, reduce errores humanos, ya que el código es generado
+automáticamente por la herramienta.
+
+Cuarto, permite el uso de expresiones regulares avanzadas, lo que
+facilita reconocer patrones complejos.
+
+Finalmente, el desarrollo es más rápido, ya que Flex automatiza gran
+parte del proceso de creación del analizador léxico.
+
+Por estas razones, Flex es una mejor opción que escribir un scanner
+manual en la mayoría de los casos.

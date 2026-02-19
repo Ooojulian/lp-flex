@@ -1,0 +1,27 @@
+Ejercicio 5 — Respuesta
+
+Pregunta: ¿Existen lenguajes para los cuales flex no es una buena
+opción?
+
+Respuesta:
+
+Sí, existen lenguajes para los cuales flex no es una buena opción. Flex
+funciona mejor con lenguajes que tienen una estructura léxica simple
+basada en expresiones regulares.
+
+Sin embargo, no es adecuado para:
+
+1.  Lenguajes sensibles a la indentación, como Python, donde los
+    espacios y la indentación forman parte de la sintaxis.
+
+2.  Lenguajes naturales como el español o inglés, ya que contienen
+    ambigüedad y su interpretación depende del contexto.
+
+3.  Lenguajes con estructuras complejas o dependientes del contexto,
+    donde el significado de los símbolos depende de su posición o uso.
+
+Flex solo reconoce patrones léxicos, pero no puede interpretar
+completamente estructuras complejas o dependientes del contexto.
+
+Por esta razón, en estos casos se requieren analizadores más avanzados o
+lógica adicional.
